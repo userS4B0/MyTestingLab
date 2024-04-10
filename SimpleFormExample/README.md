@@ -1,3 +1,8 @@
+[![GitHub issues](https://img.shields.io/github/issues/usuario/repo)](https://github.com/usuario/repo/issues)
+[![GitHub forks](https://img.shields.io/github/forks/usuario/repo)](https://github.com/usuario/repo/network)
+[![GitHub stars](https://img.shields.io/github/stars/usuario/repo)](https://github.com/usuario/repo/stargazers)
+[![GitHub license](https://img.shields.io/github/license/usuario/repo)](https://github.com/usuario/repo/blob/master/LICENSE)
+
 # File Upload Form
 
 This project consists of an HTML form for file upload, implemented with JavaScript to display the selected file path and validate fields before submitting the form.
