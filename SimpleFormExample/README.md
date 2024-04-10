@@ -1,7 +1,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/userS4B0/MyTestingLab)](https://github.com/userS4B0/MyTestingLab/issues)
 [![GitHub forks](https://img.shields.io/github/forks/userS4B0/MyTestingLab)](https://github.com/userS4B0/MyTestingLab/network)
 [![GitHub stars](https://img.shields.io/github/stars/userS4B0/MyTestingLab)](https://github.com/userS4B0/MyTestingLab/stargazers)
-[![GitHub license](https://img.shields.io/github/license/userS4B0/MyTestingLab)](https://github.com/userS4B0/MyTestingLab/blob/webdevelopment/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/userS4B0/MyTestingLab/webdevelopment)](https://github.com/userS4B0/MyTestingLab/blob/webdevelopment/LICENSE)
 
 # File Upload Form
 
