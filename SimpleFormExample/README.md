@@ -1,7 +1,7 @@
-[![GitHub issues](https://img.shields.io/github/issues/userS4B0/MyTestingLab)](https://github.com/usuario/repo/issues)
-[![GitHub forks](https://img.shields.io/github/forks/usuario/repo)](https://github.com/usuario/repo/network)
-[![GitHub stars](https://img.shields.io/github/stars/usuario/repo)](https://github.com/usuario/repo/stargazers)
-[![GitHub license](https://img.shields.io/github/license/usuario/repo)](https://github.com/usuario/repo/blob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/userS4B0/MyTestingLab)](https://github.com/userS4B0/MyTestingLab/issues)
+[![GitHub forks](https://img.shields.io/github/forks/userS4B0/MyTestingLab)](https://github.com/userS4B0/MyTestingLab/network)
+[![GitHub stars](https://img.shields.io/github/stars/userS4B0/MyTestingLab)](https://github.com/userS4B0/MyTestingLab/stargazers)
+[![GitHub license](https://img.shields.io/github/license/userS4B0/MyTestingLab)](https://github.com/userS4B0/MyTestingLab/blob/master/LICENSE)
 
 # File Upload Form
 
