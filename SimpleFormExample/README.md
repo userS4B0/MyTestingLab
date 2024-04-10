@@ -1,7 +1,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/userS4B0/MyTestingLab)](https://github.com/userS4B0/MyTestingLab/issues)
 [![GitHub forks](https://img.shields.io/github/forks/userS4B0/MyTestingLab)](https://github.com/userS4B0/MyTestingLab/network)
 [![GitHub stars](https://img.shields.io/github/stars/userS4B0/MyTestingLab)](https://github.com/userS4B0/MyTestingLab/stargazers)
-[![GitHub license](https://img.shields.io/github/license/userS4B0/MyTestingLab)](https://github.com/userS4B0/MyTestingLab/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/userS4B0/MyTestingLab)](https://github.com/userS4B0/MyTestingLab/blob/webdevelopment/LICENSE)
 
 # File Upload Form
 
@@ -35,4 +35,4 @@ Contributions are welcome. If you have any suggestions for improvement, please o
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is [unlicensed](LICENSE).
