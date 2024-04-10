@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario M6</title>
+  <!-- Enlace al archivo de estilos -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Enlace al archivo de scripts con atributo defer para cargar después del HTML -->
+  <script src="scripts.js" defer></script>
+</head>
+<body>
+  <div id="div_file_transfer_form">
+    <h2>Envío de archivos</h2>
+    <!-- Formulario con identificador y evento de envío -->
+    <form id="file_upload_form" onsubmit="return showFormData(event)">
+      <!-- Campo de entrada para el nombre con etiqueta -->
+      <label for="name_form">Nombre:</label>
+      <input type="text" id="name_form" name="name_form" required>
+      <br>
+      <!-- Campo de entrada para el archivo con etiqueta -->
+      <label for="file_form">Archivo:</label>
+      <!-- El campo de texto del archivo es solo de lectura y se actualizará mediante JavaScript -->
+      <input type="text" id="file_text" name="file_text" required>
+      <!-- Campo de selección de archivo oculto que se activa mediante el botón Examinar -->
+      <input type="file" id="file_form" name="file_form" style="display: none" onchange="showFilePath()">
+      <button onclick="document.getElementById('file_form').click()">Examinar</button>
+      <br>
+      <!-- Campo de selección de Comunidad Autónoma -->
+      <label for="location">Enviado desde:</label>
+      <select id="location" name="location" required>
+        <option selected disabled>N/A</option>
+      </select>
+      <!-- Botones de enviar y borrar -->
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Borrar">
+      <br>
+      <!-- Área de texto para mostrar los datos del formulario (solo de lectura) -->
+      <textarea id="output_form" readonly></textarea>
+    </form>
+  </div>
+  <!-- Script para poblar la lista de Comunidades Autónomas después de que se haya cargado el DOM -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      populateLocations();
+    });
+  </script>
+</body>
+</html>

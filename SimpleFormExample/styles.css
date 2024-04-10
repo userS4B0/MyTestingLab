@@ -1,0 +1,71 @@
+/* Estilos generales del cuerpo del documento */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para el contenedor del formulario */
+#div_file_transfer_form {
+  width: 80%; /* Ancho del contenedor */
+  margin: 0 auto; /* Centrar horizontalmente */
+  padding: 20px; /* Espaciado interno */
+  border: 1px solid #ccc; /* Borde con color gris claro */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilos para el encabezado del formulario */
+#div_file_transfer_form h2 {
+  text-align: center; /* Alineación centrada */
+}
+
+/* Estilos para el formulario */
+#div_file_transfer_form form {
+  max-width: 400px; /* Ancho máximo del formulario */
+  margin: 0 auto; /* Centrar horizontalmente */
+}
+
+/* Estilos para las etiquetas del formulario */
+#div_file_transfer_form label {
+  display: block; /* Mostrar cada etiqueta en una línea separada */
+  margin-bottom: 5px; /* Espaciado inferior */
+}
+
+/* Estilos para los campos de entrada de texto, archivos y selección */
+#div_file_transfer_form input[type="text"],
+#div_file_transfer_form input[type="file"],
+#div_file_transfer_form select,
+#div_file_transfer_form textarea {
+  width: 100%; /* Ancho completo del contenedor */
+  padding: 8px; /* Espaciado interno */
+  margin-bottom: 10px; /* Espaciado inferior */
+  border: 1px solid #ccc; /* Borde con color gris claro */
+  border-radius: 3px; /* Bordes redondeados */
+  box-sizing: border-box; /* Incluir el relleno y el borde en el ancho total */
+}
+
+/* Estilos para los botones */
+#div_file_transfer_form button,
+#div_file_transfer_form input[type="button"],
+#div_file_transfer_form input[type="submit"],
+#div_file_transfer_form input[type="reset"] {
+  padding: 8px 12px; /* Espaciado interno */
+  cursor: pointer; /* Cambiar el cursor a una mano */
+  background-color: #007bff; /* Color de fondo azul */
+  color: #fff; /* Color del texto blanco */
+  border: none; /* Sin borde */
+  border-radius: 3px; /* Bordes redondeados */
+}
+
+/* Estilos para los botones cuando se pasa el ratón por encima */
+#div_file_transfer_form button:hover,
+#div_file_transfer_form input[type="button"]:hover,
+#div_file_transfer_form input[type="submit"]:hover,
+#div_file_transfer_form input[type="reset"]:hover {
+  background-color: #0056b3; /* Color de fondo azul más oscuro */
+}
+
+/* Estilos para el área de texto */
+#div_file_transfer_form textarea {
+  width: 100%; /* Ancho completo del contenedor */
+  height: 100px; /* Altura fija */
+  resize: vertical; /* Permitir redimensionamiento vertical */
+}
